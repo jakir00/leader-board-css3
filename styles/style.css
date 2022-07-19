@@ -1,8 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima&family=Gulzar&family=Josefin+Sans:wght@200&family=Poppins:ital,wght@1,500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF ;}
+
+    main{
+        display: flex;
+        justify-content: center;
+    }
+
+.container{ background-color: #FFFFFF ;
+width: 870px;
+padding: 30px;}
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color: #562eff;
+    font-size: 24PX;
+   margin-top: 3px;
+    
+}
 /* top players style  */
 
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+   grid-row-gap:30px;
 }
 
 .player{ 
@@ -12,4 +36,10 @@
 .player img{ 
     width: 56px;
     height:   56px;
+}
+
+.player-name{ margin: 16px;
+font-size: 18px;}
+hr{
+     border: 1px solid #D1D1D1;
 }
